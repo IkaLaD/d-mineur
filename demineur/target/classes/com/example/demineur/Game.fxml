@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox fx:id="VBox" alignment="CENTER" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demineur.Controlleur.GameControlleur">
+   <children>
+      <HBox fx:id="hbox" alignment="CENTER">
+         <children>
+            <TilePane fx:id="tilePane"/>
+            <Label fx:id="bombFlagged"/>
+         </children>
+      </HBox>
+   </children>
+</VBox>

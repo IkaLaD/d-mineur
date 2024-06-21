@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+<VBox fx:id="VBox" alignment="CENTER" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demineur.Controlleur.StartGame" >
+   <children>
+      <TextField fx:id="heightTextField" promptText="height" maxWidth="200"/>
+      <TextField fx:id="widthTextField" promptText="width" maxWidth="200"/>
+      <TextField fx:id="bombRate" promptText="bombRate" maxWidth="200"/>
+      <Button fx:id="startButton" onMouseClicked="#startButton" text="Start" />
+   </children>
+</VBox>
+
